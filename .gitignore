@@ -1,0 +1,16 @@
+*.ko
+*.ko.cmd
+*.o
+*.o.d
+*.symvers.cmd
+*.mod.cmd
+*.mod.o.cmd
+*.o.cmd
+*.order.cmd
+*.symvers
+*.mod
+*.mod.c
+userspace
+modules.order
+compile_commands.json
+.cache/
