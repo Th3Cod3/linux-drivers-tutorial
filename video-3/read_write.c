@@ -1,11 +1,8 @@
-#include "linux/export.h"
-#include "linux/printk.h"
-#include "linux/types.h"
-#include <linux/fs.h> // file_operations, register_chrdev, unregister_chrdev
+#include <linux/fs.h> // file_operations
 #include <linux/init.h> // __init, __exit
 #include <linux/module.h> // module_init, module_exit
 #include <linux/kernel.h> // printk
-#include <linux/cdev.h>
+#include <linux/cdev.h> // cdev_init, cdev_add, cdev_del
 #include <linux/uaccess.h> // copy_to_user, copy_from_user
 
 #define MAJOR_NUMBER 5
